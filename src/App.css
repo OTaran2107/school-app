@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+.app {
+  font-family: 'Trebuchet MS';
+  font-size: 16px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__header {
+  width: 100%;
+  height: 50px;
+  background-color: #13a3b0;
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 18px;
+}
+
+.app__header__logo {
+  position: relative;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 132px;
+  height: 90px;
+  background-color: #15c1e5;
 }
 
-.App-link {
-  color: #61dafb;
+.app__header__logo > img {
+  position: absolute;
+  height: 86px;
+  bottom: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__header__link {
+  display: inline-block;
+  color: #ffffff;
+  padding: 28px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.app__header__link:active,
+.app__header__link:hover {
+  padding-bottom: 41px;
+}
+
+.app__header__link.home {
+  background-color: #9bba1f;
+}
+
+.app__header__link.groups {
+  background-color: #ffa200;
+}
+
+.app__header__link.students {
+  background-color: #ca3535;
+}
+
+.app__content {
+  width: 100%;
+  margin-top: 48px;
+  margin-left: 12px;
 }

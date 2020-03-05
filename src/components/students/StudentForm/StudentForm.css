@@ -1,0 +1,94 @@
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    width: 400px;
+    border: 1px solid #15c1e5;
+    padding: 10px; 
+}
+
+.form__title {
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.form__row {
+    display: flex;
+    flex-direction: row;
+    margin: 6px 0;
+    justify-content: center;
+}
+
+.form__label {
+    padding: 2px;
+    width: 100px;
+}
+
+.form__input {
+    box-sizing: border-box;
+    margin-left: 12px;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    width: 200px;
+    border: 1px solid lightgray;
+}
+
+.form__select {
+    box-sizing: border-box;
+    margin-left: 12px;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    width: 200px;
+    border: 1px solid lightgray;
+    background: #fff;
+}
+
+.form__actions {
+    display: flex;
+    justify-content: flex-end;
+    margin: 24px 0;
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    font-family: "Trebuchet MS";
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    width: 60px;
+    height: 25px;
+    margin: 4px;
+  }
+
+.btn__back {
+    position: absolute;
+    bottom: 5px;
+    right: 74px;
+    background: #fff;
+    border: 1px solid #15c1e5 !important;
+    color: #15c1e5 !important;
+}
+
+.btn__save {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background: #15c1e5;
+}
+
+.btn__del {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+

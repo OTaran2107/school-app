@@ -1,0 +1,64 @@
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Trebuchet MS";
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  width: 60px;
+  height: 25px;
+}
+
+.add__btn {
+  font-size: 16px;
+  font-weight: 600;
+  background: #15c1e5;
+  margin: 12px 0 !important;
+  width: 100px !important;
+  padding-top: 5p6;
+  text-align: center;
+}
+
+.edit__btn {
+  background: #ffa200;
+}
+
+.edit__btn > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.select__group {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-family: "Trebuchet MS";
+  font-size: 16px;
+}
+
+table {
+  border-collapse: collapse;
+  border-bottom: 1px solid #15c1e5;
+}
+
+th,
+td {
+  height: 28px;
+  width: auto;
+  border-left: 1px solid #15c1e5;
+  padding: 4px;
+}
+
+th:last-child,
+td:last-child {
+    border-right: 1px solid #15c1e5;
+}
+
+thead {
+  background: #15c1e5;
+  color: #fff;
+}
